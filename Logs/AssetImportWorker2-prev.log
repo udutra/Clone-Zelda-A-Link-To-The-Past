@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2021.2/release' branch; Version is '2021.2.0f1 (4bf1ec4b23c9) revision 4977132'; Using compiler version '192829333'; Build Type 'Release'
+Built from '2021.2/staging' branch; Version is '2021.2.1f1 (c20c6d589440) revision 12717165'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 10 Pro; OS build 22000.282; Version 2009; 64bit' Language: 'pt' Physical Memory: 16196 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.2.0f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.2.1f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ C:/Users/Guilherme/Documents/Arquivos/Projetos/Projetos Unity/GameDevPro/Clone Z
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-64439
+58465
 Successfully changed project path to: C:/Users/Guilherme/Documents/Arquivos/Projetos/Projetos Unity/GameDevPro/Clone Zelda A Link To The Past
 C:/Users/Guilherme/Documents/Arquivos/Projetos/Projetos Unity/GameDevPro/Clone Zelda A Link To The Past
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,10 +47,10 @@ C:/Users/Guilherme/Documents/Arquivos/Projetos/Projetos Unity/GameDevPro/Clone Z
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 139.44 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 128.63 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.2.0f1 (4bf1ec4b23c9)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2021.2.1f1 (c20c6d589440)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Guilherme/Documents/Arquivos/Projetos/Projetos Unity/GameDevPro/Clone Zelda A Link To The Past/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
@@ -60,95 +60,95 @@ Direct3D:
     VRAM:     5980 MB
     Driver:   30.0.14.9649
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006635 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005195 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 109.53 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 117.45 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.458 seconds
+- Completed reload, in  1.223 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1458ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (1223ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (496ms)
+		EndReloadAssembly (499ms)
 			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (113ms)
+			SetupTypeCache (106ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (296ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (309ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (110ms)
+				RefreshPlugins (118ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (129ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008116 seconds.
+Registered in 0.007847 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Guilherme\Documents\Arquivos\Projetos\Projetos Unity\GameDevPro\Clone Zelda A Link To The Past\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Guilherme\Documents\Arquivos\Projetos\Projetos Unity\GameDevPro\Clone Zelda A Link To The Past\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 110.44 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 118.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.996 seconds
+- Completed reload, in  2.023 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1997ms)
-		BeginReloadAssembly (185ms)
+	ReloadAssembly (2024ms)
+		BeginReloadAssembly (224ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1706ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1694ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
+			SetupTypeCache (318ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (1098ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (1083ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (814ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (811ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4219 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (55.5 KB). Loaded Objects now: 4679.
-Memory consumption went from 163.5 MB to 163.4 MB.
-Total: 6.793000 ms (FindLiveObjects: 0.507300 ms CreateObjectMapping: 0.457800 ms MarkObjects: 5.676700 ms  DeleteObjects: 0.148500 ms)
+Unloading 4220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (55.4 KB). Loaded Objects now: 4680.
+Memory consumption went from 163.5 MB to 163.5 MB.
+Total: 3.849100 ms (FindLiveObjects: 0.321200 ms CreateObjectMapping: 0.255600 ms MarkObjects: 3.189800 ms  DeleteObjects: 0.081000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,94 +162,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 39494.610473 seconds.
-  path: Assets/Game/Art/Tiles/TileAssets/Overworld_15.asset
-  artifactKey: Guid(a490b72060ad94241b6ad3509e5b4ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Art/Tiles/TileAssets/Overworld_15.asset using Guid(a490b72060ad94241b6ad3509e5b4ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc745288ec818458aed1b1585d59eac') in 0.091031 seconds 
+  Time since last request: 48806.323813 seconds.
+  path: Assets/Game/Art/Tiles/TileRules/New Rule Tile.asset
+  artifactKey: Guid(c54579f9781b72a42a0bb7eddafb8231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Art/Tiles/TileRules/New Rule Tile.asset using Guid(c54579f9781b72a42a0bb7eddafb8231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a8deeced0f4736bbd1a54adf735624') in 0.077971 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game/Art/Tiles/TileAssets/Overworld_10.asset
-  artifactKey: Guid(1e310a623031ee642ae48c5b24bcb0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Art/Tiles/TileAssets/Overworld_10.asset using Guid(1e310a623031ee642ae48c5b24bcb0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638232e29a03fecf2b9119ae33bbfa5d') in 0.007711 seconds 
+  Time since last request: 34.114601 seconds.
+  path: Assets/Game/Art/Tiles/TileRules/TileRule_GrassRock.asset
+  artifactKey: Guid(554889b7e39167e4da8598d7f11751c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Art/Tiles/TileRules/TileRule_GrassRock.asset using Guid(554889b7e39167e4da8598d7f11751c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5245a9f61f64b2708c206c4450a9d18e') in 0.003631 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game/Art/Tiles/TileAssets/Overworld_1.asset
-  artifactKey: Guid(0c3cc8959749860488f26073bc8b9f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Art/Tiles/TileAssets/Overworld_1.asset using Guid(0c3cc8959749860488f26073bc8b9f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cd675a548812e827223b06c501b493') in 0.008280 seconds 
+  Time since last request: 1690.543627 seconds.
+  path: Assets/Game/Art/Tiles/TileRules/Overworld/TileRule_Castle_WallEdge.asset
+  artifactKey: Guid(e7b56c0efdb9baa48846579f958d7498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Art/Tiles/TileRules/Overworld/TileRule_Castle_WallEdge.asset using Guid(e7b56c0efdb9baa48846579f958d7498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c74a56f93fd1a8f6ec05d31e9cab569') in 0.045752 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Game/Art/Tiles/TileAssets/Overworld_19.asset
-  artifactKey: Guid(deca9d19738d1434c8b1826a6b5abdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Art/Tiles/TileAssets/Overworld_19.asset using Guid(deca9d19738d1434c8b1826a6b5abdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e2de1e6c4087d07da7b5c88fdb0a25') in 0.007433 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/Game/Art/Tiles/TileRules/Overworld/TileRule_LightGrassWater.asset
+  artifactKey: Guid(5ebf8ef07120a5c4c9cd37a11c0dcbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Art/Tiles/TileRules/Overworld/TileRule_LightGrassWater.asset using Guid(5ebf8ef07120a5c4c9cd37a11c0dcbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92489ea703b0dc4fd4a2e8587a54906') in 0.012434 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game/Art/Tiles/TileAssets/Overworld_6.asset
-  artifactKey: Guid(21cacd60d1fd2a6418f13ce44b8c0f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Art/Tiles/TileAssets/Overworld_6.asset using Guid(21cacd60d1fd2a6418f13ce44b8c0f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5dd1ee7a771f7b959a2006967386339') in 0.008044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Game/Art/Tiles/TilePalette/TilePalette_Overworld.prefab
-  artifactKey: Guid(ce7f09a11438bf949b47ae3216e15e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Art/Tiles/TilePalette/TilePalette_Overworld.prefab using Guid(ce7f09a11438bf949b47ae3216e15e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deef198cbd52488926c51ec2db08f2eb') in 0.694401 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007683 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Guilherme\Documents\Arquivos\Projetos\Projetos Unity\GameDevPro\Clone Zelda A Link To The Past\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Guilherme\Documents\Arquivos\Projetos\Projetos Unity\GameDevPro\Clone Zelda A Link To The Past\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.261 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1261ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1028ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (511ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (376ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.59 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4208 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (24.6 KB). Loaded Objects now: 4690.
-Memory consumption went from 168.5 MB to 168.5 MB.
-Total: 4.683100 ms (FindLiveObjects: 0.313700 ms CreateObjectMapping: 0.222800 ms MarkObjects: 4.122400 ms  DeleteObjects: 0.023500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game/Art/Tiles/TileRules/Overworld/TileRule_GrassRockWater.asset
+  artifactKey: Guid(e6590d1bdd52cac42aec3a9c5fa8ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Art/Tiles/TileRules/Overworld/TileRule_GrassRockWater.asset using Guid(e6590d1bdd52cac42aec3a9c5fa8ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda388218b86e2dcefe960aa2f3f0dc3') in 0.016117 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
