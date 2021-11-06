@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9a59352a228fac46a146b9ae8efb554, type: 3}
   m_Name: TileRule_GrassDirt
   m_EditorClassIdentifier: 
-  m_DefaultSprite: {fileID: -6614255665988539267, guid: e025ceb7fee976e48b4e12da15ebaeba, type: 3}
+  m_DefaultSprite: {fileID: -3946044080845908275, guid: e025ceb7fee976e48b4e12da15ebaeba, type: 3}
   m_DefaultGameObject: {fileID: 0}
   m_DefaultColliderType: 0
   m_TilingRules:
